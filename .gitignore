@@ -1,0 +1,8 @@
+workspace.code-workspace
+first_app/dev.py
+
+# Text backup files
+*.bak
+
+#Database
+*.sqlite3
