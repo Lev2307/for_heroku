@@ -1,6 +1,6 @@
 DEBUG = True
 
-ALLOWED_HOSTS = []
+ALLOWED_HOSTS = ["https://git.heroku.com/young-bayou-30157.git"]
 
 MIDDLEWARE = [
     'django.middleware.security.SecurityMiddleware',
