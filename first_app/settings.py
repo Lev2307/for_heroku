@@ -87,7 +87,7 @@ DEVELOPMENT = False
 
 if not DEVELOPMENT:
     from .prod import DEBUG, ALLOWED_HOSTS, MIDDLEWARE
-    import dj_databse_url
+    import dj_database_url
     db_from_env = dj.database_url.config(conn_max_age=500)
     DATABASES['default'].update(db_from_env)
     STATICFILES_STORAGE = 'whitenoise.storage.CompressedManifestStaticFilesStorage'
